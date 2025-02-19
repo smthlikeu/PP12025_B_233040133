@@ -1,4 +1,4 @@
-package pertemuan3;
+package pertemuan2;
 
 public class StrukturList {
     private Node HEAD;
@@ -23,7 +23,7 @@ public class StrukturList {
 
     // Menambahkan elemen di awal (head)
     public void addHead(int data) {
-        Node newNode = new Node(data);
+        Node newNode = new Node(data);	
         if (isEmpty()) {
             HEAD = newNode;
         } else {

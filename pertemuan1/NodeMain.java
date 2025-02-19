@@ -1,4 +1,4 @@
-package pertemuan2;
+package pertemuan1;
 
 public class NodeMain {
     public static void main(String[] args) {

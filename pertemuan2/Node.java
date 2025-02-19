@@ -1,29 +1,30 @@
 package pertemuan2;
 
 public class Node {
-	private int Nilai;
-	private Node Next;
+	private int data;
+	private Node next;
 	
-	//inisialisasi Node
-	public Node(int Nilai) {
-		this.Nilai = Nilai;
+	/** Inisialisasi atribut node */
+	
+	public Node(int data) {
+		this.data = data;
 	}
 	
+	/** Setter & Getter */
 	
-	// setter & getter
-	public void setNilai (int Nilai) {
-		this.Nilai=Nilai;
+	public void setData (int data) {
+		this.data = data;
 	}
 	
-	public int getNilai() {
-		return Nilai;
+	public int getData() {
+		return data;
 	}
 	
-	public void setNext (Node Next) {
-		this.Next = Next;
+	public void setNext (Node next) {
+		this.next = next;
 	}
 	
 	public Node getNext() {
-		return Next;
+		return next;
 	}
 }
